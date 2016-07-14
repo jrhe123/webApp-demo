@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    font-family : "verdana"
+}
+html,body{
+    margin: 0px;
+}
+
+#controls{
+    height: 68px;
+    width: 700px;
+    background-color : #5F7E87;
+    color : white;
+    padding: 10px;
+}
+
+#resizable {
+    height: 400px;
+    width: 500px;
+    padding : 5px;
+    border: 2px dashed #AAA;
+}

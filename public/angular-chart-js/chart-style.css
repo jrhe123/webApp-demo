@@ -1,0 +1,30 @@
+/* Styles go here */
+.sidebar{
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  background:lightgray;
+  z-index: 1000;
+  display: block;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid gray;
+}
+
+body {
+  font: 14px sans-serif;
+}
+.axis path, .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+.axis path{
+  fill: none;
+  stroke: none;
+}
+.bar {
+  fill: steelblue;
+}
